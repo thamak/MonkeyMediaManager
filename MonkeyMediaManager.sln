@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
 VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MonkeyMediaManager", "MonkeyMediaManager\MonkeyMediaManager.xproj", "{E956FB86-0E0C-44B8-8645-27B3603315DC}"
+Project("{8BB2217D-0F2D-49D1-97BC-3654ED321F3B}") = "MonkeyMediaManager.WebSite", "MonkeyMediaManager.WebSite\MonkeyMediaManager.WebSite.xproj", "{E956FB86-0E0C-44B8-8645-27B3603315DC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MonkeyMediaManager", "MonkeyMediaManager\MonkeyMediaManager.csproj", "{6047F326-2797-40BE-857F-AD39B4D55160}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MMM.Common", "MMM.Common\MMM.Common.csproj", "{D0C84518-4836-4C01-9A25-1C8BD66E3505}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{E956FB86-0E0C-44B8-8645-27B3603315DC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E956FB86-0E0C-44B8-8645-27B3603315DC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E956FB86-0E0C-44B8-8645-27B3603315DC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6047F326-2797-40BE-857F-AD39B4D55160}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6047F326-2797-40BE-857F-AD39B4D55160}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6047F326-2797-40BE-857F-AD39B4D55160}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6047F326-2797-40BE-857F-AD39B4D55160}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D0C84518-4836-4C01-9A25-1C8BD66E3505}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D0C84518-4836-4C01-9A25-1C8BD66E3505}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D0C84518-4836-4C01-9A25-1C8BD66E3505}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D0C84518-4836-4C01-9A25-1C8BD66E3505}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
